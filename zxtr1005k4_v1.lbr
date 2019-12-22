@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Diodes/Zetex High voltage linear regulator (Uin: 10-100V, Uout: 5V)</description>
+<packages>
+<package name="K4_09">
+<description>Pad width: 0.9mm. Distance between pads: 0.37mm.</description>
+<smd name="VIN2" x="0" y="1.445" dx="5.73" dy="6.17" layer="1"/>
+<smd name="EN" x="-2.54" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="VIN1" x="-1.27" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="GND" x="1.27" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="VOUT" x="2.54" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<wire x1="-3.29" y1="-3.05" x2="3.29" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="-3.05" x2="3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="3.05" x2="-3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-3.29" y1="3.05" x2="-3.29" y2="-3.05" width="0.127" layer="21"/>
+<rectangle x1="-2.665" y1="3.05" x2="2.665" y2="4.13" layer="21"/>
+<rectangle x1="-2.8315" y1="-5.78" x2="-2.2485" y2="-3.05" layer="21"/>
+<rectangle x1="-1.5615" y1="-5.78" x2="-0.9785" y2="-3.05" layer="21"/>
+<rectangle x1="0.9785" y1="-5.78" x2="1.5615" y2="-3.05" layer="21"/>
+<rectangle x1="2.2485" y1="-5.78" x2="2.8315" y2="-3.05" layer="21"/>
+<rectangle x1="-0.2915" y1="-3.88" x2="0.2915" y2="-3.05" layer="21"/>
+<text x="-3.81" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-6.35" size="1.27" layer="27" rot="R90">ZXTR1005K4</text>
+</package>
+<package name="K4_09A">
+<description>Pad width: 0.9mm. Pads laterally offset. Distance between pads: 0.55mm. For voltages greater than 50V.</description>
+<smd name="VIN2" x="0" y="1.445" dx="5.73" dy="6.17" layer="1"/>
+<smd name="EN" x="-2.63" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="VIN1" x="-1.18" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="GND" x="1.18" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<smd name="VOUT" x="2.63" y="-5.3" dx="0.9" dy="2" layer="1"/>
+<wire x1="-3.29" y1="-3.05" x2="3.29" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="-3.05" x2="3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="3.05" x2="-3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-3.29" y1="3.05" x2="-3.29" y2="-3.05" width="0.127" layer="21"/>
+<rectangle x1="-2.665" y1="3.05" x2="2.665" y2="4.13" layer="21"/>
+<rectangle x1="-2.8315" y1="-5.78" x2="-2.2485" y2="-3.05" layer="21"/>
+<rectangle x1="-1.5615" y1="-5.78" x2="-0.9785" y2="-3.05" layer="21"/>
+<rectangle x1="0.9785" y1="-5.78" x2="1.5615" y2="-3.05" layer="21"/>
+<rectangle x1="2.2485" y1="-5.78" x2="2.8315" y2="-3.05" layer="21"/>
+<rectangle x1="-0.2915" y1="-3.88" x2="0.2915" y2="-3.05" layer="21"/>
+<text x="-3.81" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-6.35" size="1.27" layer="27" rot="R90">ZXTR1005K4</text>
+</package>
+<package name="K4">
+<description>Pad width 1mm (original, see data sheet). Distance between pads: 0.27mm. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Zetex/Diodes ZXTR1005K4 (TO252-4)&lt;/b&gt;
+&lt;pre&gt;Vin :   10 - 100V
+Vout:   5V +/-2% = 4.9V - 5.1V
+Iout:   50mA max.&lt;/pre&gt;
+Thermal resistance from junction to solder-point (on the exposed VIN pad): 8.39K/W &lt;br/&gt;
+Power dissipation (PD): 2.3W max. &lt;br/&gt;
+Required area for 1.1W PD: 15 x 15mm @ 1oz Cu. &lt;br/&gt;
+Required area for 2.3W PD: 50 x 50mm @ 1oz Cu.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;a href="http://diodes.com/catalog/high_voltage_linear_regulators_1230/zxtr1005k4.html"&gt;http://diodes.com/catalog/high_voltage_linear_regulators_1230/zxtr1005k4.html&lt;/a&gt;</description>
+<smd name="VIN2" x="0" y="1.445" dx="5.73" dy="6.17" layer="1"/>
+<smd name="EN" x="-2.54" y="-5.3" dx="1" dy="2" layer="1"/>
+<smd name="VIN1" x="-1.27" y="-5.3" dx="1" dy="2" layer="1"/>
+<smd name="GND" x="1.27" y="-5.3" dx="1" dy="2" layer="1"/>
+<smd name="VOUT" x="2.54" y="-5.3" dx="1" dy="2" layer="1"/>
+<wire x1="-3.29" y1="-3.05" x2="3.29" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="-3.05" x2="3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="3.29" y1="3.05" x2="-3.29" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-3.29" y1="3.05" x2="-3.29" y2="-3.05" width="0.127" layer="21"/>
+<rectangle x1="-2.665" y1="3.05" x2="2.665" y2="4.13" layer="21"/>
+<rectangle x1="-2.8315" y1="-5.78" x2="-2.2485" y2="-3.05" layer="21"/>
+<rectangle x1="-1.5615" y1="-5.78" x2="-0.9785" y2="-3.05" layer="21"/>
+<rectangle x1="0.9785" y1="-5.78" x2="1.5615" y2="-3.05" layer="21"/>
+<rectangle x1="2.2485" y1="-5.78" x2="2.8315" y2="-3.05" layer="21"/>
+<rectangle x1="-0.2915" y1="-3.88" x2="0.2915" y2="-3.05" layer="21"/>
+<text x="-3.81" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-6.35" size="1.27" layer="27" rot="R90">ZXTR1005K4</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ZXTR1005">
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<pin name="VIN" x="0" y="8.89" visible="off" length="short" direction="in" rot="R270"/>
+<pin name="GND" x="0" y="-8.89" visible="off" length="short" rot="R90"/>
+<pin name="EN" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="VOUT" x="10.16" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="-7.62" y="8.89" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="6.985" y="-2.54" size="0.8128" layer="95" rot="R90" align="center">ZXTR1005K4</text>
+<text x="0" y="3.81" size="1.778" layer="97" align="center">IN</text>
+<text x="-5.08" y="0" size="1.778" layer="97" align="center">EN</text>
+<text x="3.81" y="0" size="1.778" layer="97" align="center">OUT</text>
+<text x="0" y="-3.81" size="1.778" layer="97" align="center">GND</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="K4">
+<description>Pad width: 1mm (original, see datasheet). Distance between pads: 0.27mm.</description>
+<gates>
+<gate name="G$1" symbol="ZXTR1005" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K4">
+<connects>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN1 VIN2"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K4_09">
+<description>Pad width: 0.9mm. Distance between pads: 0.37mm.</description>
+<gates>
+<gate name="G$1" symbol="ZXTR1005" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K4_09">
+<connects>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN1 VIN2"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K4_09A">
+<description>Pad width: 0.9mm. Pads laterally offset. Distance between pads: 0.55mm. For Voltages greater than 50V.</description>
+<gates>
+<gate name="G$1" symbol="ZXTR1005" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K4_09A">
+<connects>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN" pad="VIN1 VIN2"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
