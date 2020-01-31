@@ -215,6 +215,16 @@
 </symbols>
 <devicesets>
 <deviceset name="К176ИЕ12,ИЕ18">
+<description>&lt;b&gt;К176ИЕ12&lt;/b&gt;
+&lt;br&gt;генератор, счётчик делитель на 32768 и 60 для часов.&lt;br&gt;
+http://lib.chipdip.ru/031/DOC001031304.pdf
+&lt;br&gt;
+pin 12 вход генератора,
+pin 13 выход генератора,
+pin 14 выход генератора контрольный 32768гц.
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;К176ИЕ18&lt;/b&gt; с открытым стоком</description>
 <gates>
 <gate name="A" symbol="К176ИЕ12" x="-2.54" y="7.62"/>
 <gate name="P" symbol="PWRN" x="5.08" y="-53.34" addlevel="request"/>
@@ -276,7 +286,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="К176ИД2">
+<deviceset name="К176ИД2,ИД3">
 <gates>
 <gate name="A" symbol="К176ИД2" x="0" y="-5.08"/>
 <gate name="P" symbol="PWRN" x="0" y="-17.78" addlevel="request"/>

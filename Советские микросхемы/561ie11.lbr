@@ -132,28 +132,28 @@
 <devicesets>
 <deviceset name="561IE11">
 <gates>
-<gate name="DD" symbol="561IE11" x="0" y="0"/>
-<gate name="G$2" symbol="P" x="2.54" y="-27.94"/>
+<gate name="A" symbol="561IE11" x="0" y="0"/>
+<gate name="P" symbol="P" x="2.54" y="-27.94" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="DIL16">
 <connects>
-<connect gate="DD" pin="1" pad="6"/>
-<connect gate="DD" pin="2" pad="11"/>
-<connect gate="DD" pin="4" pad="14"/>
-<connect gate="DD" pin="8" pad="2"/>
-<connect gate="DD" pin="C" pad="15"/>
-<connect gate="DD" pin="D1" pad="4"/>
-<connect gate="DD" pin="D2" pad="12"/>
-<connect gate="DD" pin="D4" pad="13"/>
-<connect gate="DD" pin="D8" pad="3"/>
-<connect gate="DD" pin="P" pad="7"/>
-<connect gate="DD" pin="PI" pad="5"/>
-<connect gate="DD" pin="R" pad="9"/>
-<connect gate="DD" pin="S" pad="1"/>
-<connect gate="DD" pin="U" pad="10"/>
-<connect gate="G$2" pin="GND" pad="8"/>
-<connect gate="G$2" pin="VCC" pad="16"/>
+<connect gate="A" pin="1" pad="6"/>
+<connect gate="A" pin="2" pad="11"/>
+<connect gate="A" pin="4" pad="14"/>
+<connect gate="A" pin="8" pad="2"/>
+<connect gate="A" pin="C" pad="15"/>
+<connect gate="A" pin="D1" pad="4"/>
+<connect gate="A" pin="D2" pad="12"/>
+<connect gate="A" pin="D4" pad="13"/>
+<connect gate="A" pin="D8" pad="3"/>
+<connect gate="A" pin="P" pad="7"/>
+<connect gate="A" pin="PI" pad="5"/>
+<connect gate="A" pin="R" pad="9"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="A" pin="U" pad="10"/>
+<connect gate="P" pin="GND" pad="8"/>
+<connect gate="P" pin="VCC" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
