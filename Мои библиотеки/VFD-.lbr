@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -355,7 +355,25 @@
 <gate name="H" symbol="IV-6_T" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IV-6">
+<device name="_R" package="IV-6">
+<connects>
+<connect gate="H" pin="A" pad="2"/>
+<connect gate="H" pin="B" pad="1"/>
+<connect gate="H" pin="C" pad="10"/>
+<connect gate="H" pin="D" pad="6"/>
+<connect gate="H" pin="E" pad="5"/>
+<connect gate="H" pin="F" pad="4"/>
+<connect gate="H" pin="G" pad="3"/>
+<connect gate="H" pin="H" pad="11"/>
+<connect gate="H" pin="H1" pad="7"/>
+<connect gate="H" pin="H2K" pad="8"/>
+<connect gate="H" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_P" package="CON_VFD">
 <connects>
 <connect gate="H" pin="A" pad="2"/>
 <connect gate="H" pin="B" pad="1"/>
