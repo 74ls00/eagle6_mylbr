@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -92,32 +92,12 @@
 <text x="6.35" y="4.445" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 <pad name="11" x="-5.08" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
 <wire x1="-5.715" y1="-2.54" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
-<text x="-4.28625" y="-8.09625" size="1.016" layer="21" rot="R180">11</text>
-<text x="-4.445" y="-12.3825" size="1.27" layer="21" rot="R180">1</text>
-<text x="-2.06375" y="-12.3825" size="1.27" layer="21" rot="R180">2</text>
-<text x="0.47625" y="-12.3825" size="1.27" layer="21" rot="R180">3</text>
-<text x="3.01625" y="-12.3825" size="1.27" layer="21" rot="R180">4</text>
-<text x="5.55625" y="-12.3825" size="1.27" layer="21" rot="R180">5</text>
-<text x="5.55625" y="-10.16" size="1.27" layer="21" rot="R180">6</text>
-<text x="3.01625" y="-10.16" size="1.27" layer="21" rot="R180">7</text>
-<text x="0.47625" y="-10.16" size="1.27" layer="21" rot="R180">8</text>
-<text x="-2.06375" y="-10.16" size="1.27" layer="21" rot="R180">9</text>
-<text x="-4.28625" y="-10.31875" size="1.016" layer="21" distance="30" rot="R180">10</text>
-<circle x="-5.08" y="-8.5725" radius="1.016" width="0.127" layer="21"/>
-<circle x="-5.08" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
-<circle x="-5.08" y="-10.795" radius="1.016" width="0.127" layer="21"/>
-<circle x="-2.54" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
-<circle x="-2.54" y="-10.795" radius="1.016" width="0.127" layer="21"/>
-<circle x="0" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
-<circle x="0" y="-10.795" radius="1.016" width="0.127" layer="21"/>
-<circle x="2.54" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
-<circle x="2.54" y="-10.795" radius="1.016" width="0.127" layer="21"/>
-<circle x="5.08" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
-<circle x="5.08" y="-10.795" radius="1.016" width="0.127" layer="21"/>
 <wire x1="-4.445" y1="5.08" x2="-5.715" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="4.445" x2="-4.445" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="-5.715" y1="5.08" x2="-6.35" y2="4.445" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="2.54" x2="-3.81" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-0.466725" y1="0" x2="0.466725" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0.31115" x2="0" y2="-0.31115" width="0.127" layer="21"/>
 </package>
 <package name="IV-6">
 <circle x="-3" y="-5" radius="4" width="0.127" layer="21"/>
@@ -150,6 +130,43 @@
 <wire x1="-3.5" y1="11.5" x2="-3.5" y2="0" width="0.127" layer="21"/>
 <wire x1="3.5" y1="0" x2="3.5" y2="11.5" width="0.127" layer="21"/>
 </package>
+<package name="IV-6_VIXC">
+<wire x1="-6.5" y1="-5.75" x2="-6.5" y2="17.25" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="17.25" x2="6.5" y2="17.25" width="0.127" layer="21"/>
+<wire x1="6.5" y1="17.25" x2="6.5" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="3.5" y1="5.75" x2="-3.5" y2="5.75" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-5.75" x2="-3.5" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-5.75" x2="3.5" y2="5.75" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="5.75" x2="-3.5" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="5.72135" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="6.35635" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="18.44365" x2="5.72135" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="17.80865" x2="-5.70865" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="22.88865" x2="-3.80365" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="-6.34365" y1="18.44365" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<text x="-0.62865" y="24.79365" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="6.35635" y="24.79365" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="-5.70865" y1="17.80865" x2="-6.34365" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="-4.43865" y1="25.42865" x2="-5.70865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="24.79365" x2="-4.43865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-5.70865" y1="25.42865" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="22.88865" x2="-3.80365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-0.460375" y1="20.34865" x2="0.473075" y2="20.34865" width="0.127" layer="21"/>
+<wire x1="0.00635" y1="20.6598" x2="0.00635" y2="20.0375" width="0.127" layer="21"/>
+<pad name="3" x="0" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="4" x="2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="5" x="5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="2" x="-2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="1" x="-5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="6" x="5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="7" x="2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="8" x="0" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="9" x="-2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="10" x="-5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="11" x="-5.08" y="24.13" drill="0.8" diameter="1.9304"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="21"/>
+</package>
 <package name="IV-3A_H">
 <wire x1="5.25" y1="19.5" x2="5.25" y2="-10.5" width="0.127" layer="21"/>
 <wire x1="5.25" y1="-10.5" x2="-5.25" y2="-10.5" width="0.127" layer="21"/>
@@ -160,6 +177,142 @@
 <wire x1="3" y1="8.5" x2="3" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="25.5" x2="5.25" y2="19.5" width="0.127" layer="21"/>
 <wire x1="0" y1="25.5" x2="-5.25" y2="19.5" width="0.127" layer="21"/>
+</package>
+<package name="CON_VFD_SCH">
+<text x="-4.28625" y="-8.09625" size="1.016" layer="21" rot="R180">11</text>
+<text x="-4.445" y="-12.3825" size="1.27" layer="21" rot="R180">1</text>
+<text x="-2.06375" y="-12.3825" size="1.27" layer="21" rot="R180">2</text>
+<text x="0.47625" y="-12.3825" size="1.27" layer="21" rot="R180">3</text>
+<text x="3.01625" y="-12.3825" size="1.27" layer="21" rot="R180">4</text>
+<text x="5.55625" y="-12.3825" size="1.27" layer="21" rot="R180">5</text>
+<text x="5.55625" y="-10.16" size="1.27" layer="21" rot="R180">6</text>
+<text x="3.01625" y="-10.16" size="1.27" layer="21" rot="R180">7</text>
+<text x="0.47625" y="-10.16" size="1.27" layer="21" rot="R180">8</text>
+<text x="-2.06375" y="-10.16" size="1.27" layer="21" rot="R180">9</text>
+<text x="-4.28625" y="-10.31875" size="1.016" layer="21" distance="30" rot="R180">10</text>
+<circle x="-5.08" y="-8.5725" radius="1.016" width="0.127" layer="21"/>
+<circle x="-5.08" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
+<circle x="-5.08" y="-10.795" radius="1.016" width="0.127" layer="21"/>
+<circle x="-2.54" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
+<circle x="-2.54" y="-10.795" radius="1.016" width="0.127" layer="21"/>
+<circle x="0" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
+<circle x="0" y="-10.795" radius="1.016" width="0.127" layer="21"/>
+<circle x="2.54" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
+<circle x="2.54" y="-10.795" radius="1.016" width="0.127" layer="21"/>
+<circle x="5.08" y="-13.0175" radius="1.016" width="0.127" layer="21"/>
+<circle x="5.08" y="-10.795" radius="1.016" width="0.127" layer="21"/>
+</package>
+<package name="IV-6_VIXL">
+<wire x1="-5.865" y1="-5.75" x2="-5.865" y2="17.25" width="0.127" layer="21"/>
+<wire x1="-5.865" y1="17.25" x2="7.135" y2="17.25" width="0.127" layer="21"/>
+<wire x1="7.135" y1="17.25" x2="7.135" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="4.135" y1="5.75" x2="-2.865" y2="5.75" width="0.127" layer="21"/>
+<wire x1="4.135" y1="-5.75" x2="-2.865" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="4.135" y1="-5.75" x2="4.135" y2="5.75" width="0.127" layer="21"/>
+<wire x1="-2.865" y1="5.75" x2="-2.865" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="5.72135" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="6.35635" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="18.44365" x2="5.72135" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="17.80865" x2="-5.70865" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="22.88865" x2="-3.80365" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="-6.34365" y1="18.44365" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<text x="-0.62865" y="24.79365" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="6.35635" y="24.79365" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="-5.70865" y1="17.80865" x2="-6.34365" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="-4.43865" y1="25.42865" x2="-5.70865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="24.79365" x2="-4.43865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-5.70865" y1="25.42865" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="22.88865" x2="-3.80365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-0.460375" y1="20.34865" x2="0.473075" y2="20.34865" width="0.127" layer="21"/>
+<wire x1="0.00635" y1="20.6598" x2="0.00635" y2="20.0375" width="0.127" layer="21"/>
+<pad name="3" x="0" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="4" x="2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="5" x="5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="2" x="-2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="1" x="-5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="6" x="5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="7" x="2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="8" x="0" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="9" x="-2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="10" x="-5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="11" x="-5.08" y="24.13" drill="0.8" diameter="1.9304"/>
+<text x="0.9525" y="14.9225" size="1.27" layer="21">18.73</text>
+<wire x1="-0.365" y1="0" x2="1.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1" x2="0.635" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="IV-3A_VIXC">
+<wire x1="-5.25" y1="-5.77" x2="-5.25" y2="14.705" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="14.705" x2="5.25" y2="14.705" width="0.127" layer="21"/>
+<wire x1="5.25" y1="14.705" x2="5.25" y2="-5.77" width="0.127" layer="21"/>
+<wire x1="3" y1="4.205" x2="-3" y2="4.205" width="0.127" layer="21"/>
+<wire x1="3" y1="-4.295" x2="-3" y2="-4.295" width="0.127" layer="21"/>
+<wire x1="3" y1="4.205" x2="3" y2="-4.295" width="0.127" layer="21"/>
+<wire x1="-3" y1="-4.295" x2="-3" y2="4.205" width="0.127" layer="21"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="5.72135" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="6.35635" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="18.44365" x2="5.72135" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="17.80865" x2="-5.70865" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="22.88865" x2="-3.80365" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="-6.34365" y1="18.44365" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<text x="-0.62865" y="24.79365" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="6.35635" y="24.79365" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="-5.70865" y1="17.80865" x2="-6.34365" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="-4.43865" y1="25.42865" x2="-5.70865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="24.79365" x2="-4.43865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-5.70865" y1="25.42865" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="22.88865" x2="-3.80365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-0.460375" y1="20.34865" x2="0.473075" y2="20.34865" width="0.127" layer="21"/>
+<wire x1="0.00635" y1="20.6598" x2="0.00635" y2="20.0375" width="0.127" layer="21"/>
+<pad name="3" x="0" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="4" x="2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="5" x="5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="2" x="-2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="1" x="-5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="6" x="5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="7" x="2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="8" x="0" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="9" x="-2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="10" x="-5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="11" x="-5.08" y="24.13" drill="0.8" diameter="1.9304"/>
+</package>
+<package name="IV-6_VIXR">
+<wire x1="-7.135" y1="-5.75" x2="-7.135" y2="17.25" width="0.127" layer="21"/>
+<wire x1="-7.135" y1="17.25" x2="5.865" y2="17.25" width="0.127" layer="21"/>
+<wire x1="5.865" y1="17.25" x2="5.865" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="2.865" y1="5.75" x2="-4.135" y2="5.75" width="0.127" layer="21"/>
+<wire x1="2.865" y1="-5.75" x2="-4.135" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="2.865" y1="-5.75" x2="2.865" y2="5.75" width="0.127" layer="21"/>
+<wire x1="-4.135" y1="5.75" x2="-4.135" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="5.72135" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="22.25365" x2="6.35635" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="6.35635" y1="18.44365" x2="5.72135" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="17.80865" x2="-5.70865" y2="17.80865" width="0.1524" layer="21"/>
+<wire x1="5.72135" y1="22.88865" x2="-3.80365" y2="22.88865" width="0.1524" layer="21"/>
+<wire x1="-6.34365" y1="18.44365" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<text x="-0.62865" y="24.79365" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="6.35635" y="24.79365" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="-5.70865" y1="17.80865" x2="-6.34365" y2="18.44365" width="0.1524" layer="21"/>
+<wire x1="-4.43865" y1="25.42865" x2="-5.70865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="24.79365" x2="-4.43865" y2="25.42865" width="0.1524" layer="21"/>
+<wire x1="-5.70865" y1="25.42865" x2="-6.34365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-3.80365" y1="22.88865" x2="-3.80365" y2="24.79365" width="0.1524" layer="21"/>
+<wire x1="-0.460375" y1="20.34865" x2="0.473075" y2="20.34865" width="0.127" layer="21"/>
+<wire x1="0.00635" y1="20.6598" x2="0.00635" y2="20.0375" width="0.127" layer="21"/>
+<pad name="3" x="0" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="4" x="2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="5" x="5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="2" x="-2.54" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="1" x="-5.08" y="19.05" drill="0.8" diameter="1.9304"/>
+<pad name="6" x="5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="7" x="2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="8" x="0" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="9" x="-2.54" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="10" x="-5.08" y="21.59" drill="0.8" diameter="1.9304"/>
+<pad name="11" x="-5.08" y="24.13" drill="0.8" diameter="1.9304"/>
+<wire x1="-1.635" y1="0" x2="0.365" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1" x2="-0.635" y2="-1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -386,6 +539,85 @@
 <connect gate="H" pin="H1" pad="7"/>
 <connect gate="H" pin="H2K" pad="8"/>
 <connect gate="H" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_VIXC" package="IV-6_VIXC">
+<connects>
+<connect gate="H" pin="A" pad="2"/>
+<connect gate="H" pin="B" pad="1"/>
+<connect gate="H" pin="C" pad="10"/>
+<connect gate="H" pin="D" pad="6"/>
+<connect gate="H" pin="E" pad="5"/>
+<connect gate="H" pin="F" pad="4"/>
+<connect gate="H" pin="G" pad="3"/>
+<connect gate="H" pin="H" pad="11"/>
+<connect gate="H" pin="H1" pad="7"/>
+<connect gate="H" pin="H2K" pad="8"/>
+<connect gate="H" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_VIXL" package="IV-6_VIXL">
+<connects>
+<connect gate="H" pin="A" pad="2"/>
+<connect gate="H" pin="B" pad="1"/>
+<connect gate="H" pin="C" pad="10"/>
+<connect gate="H" pin="D" pad="6"/>
+<connect gate="H" pin="E" pad="5"/>
+<connect gate="H" pin="F" pad="4"/>
+<connect gate="H" pin="G" pad="3"/>
+<connect gate="H" pin="H" pad="11"/>
+<connect gate="H" pin="H1" pad="7"/>
+<connect gate="H" pin="H2K" pad="8"/>
+<connect gate="H" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_VIXR" package="IV-6_VIXR">
+<connects>
+<connect gate="H" pin="A" pad="2"/>
+<connect gate="H" pin="B" pad="1"/>
+<connect gate="H" pin="C" pad="10"/>
+<connect gate="H" pin="D" pad="6"/>
+<connect gate="H" pin="E" pad="5"/>
+<connect gate="H" pin="F" pad="4"/>
+<connect gate="H" pin="G" pad="3"/>
+<connect gate="H" pin="H" pad="11"/>
+<connect gate="H" pin="H1" pad="7"/>
+<connect gate="H" pin="H2K" pad="8"/>
+<connect gate="H" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IV-3T">
+<gates>
+<gate name="G$1" symbol="IV-6_T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_VIXC" package="IV-3A_VIXC">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="10"/>
+<connect gate="G$1" pin="D" pad="6"/>
+<connect gate="G$1" pin="E" pad="5"/>
+<connect gate="G$1" pin="F" pad="4"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="H" pad="11"/>
+<connect gate="G$1" pin="H1" pad="7"/>
+<connect gate="G$1" pin="H2K" pad="8"/>
+<connect gate="G$1" pin="S" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
