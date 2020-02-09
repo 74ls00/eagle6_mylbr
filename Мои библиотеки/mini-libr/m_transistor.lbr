@@ -147,6 +147,8 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;p&gt;
+SOT-23 = TO-236AB = Micro3&lt;br&gt;</description>
 <packages>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>

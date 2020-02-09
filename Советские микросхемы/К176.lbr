@@ -386,7 +386,30 @@ pin 14 выход генератора контрольный 32768гц.
 <gate name="P" symbol="PWRN" x="25.4" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="DIL16">
+<device name="L" package="DIL16">
+<connects>
+<connect gate="A" pin="60" pad="10"/>
+<connect gate="A" pin="C1" pad="12"/>
+<connect gate="A" pin="C2" pad="7"/>
+<connect gate="A" pin="F" pad="11"/>
+<connect gate="A" pin="K" pad="14"/>
+<connect gate="A" pin="R1" pad="5"/>
+<connect gate="A" pin="R2" pad="9"/>
+<connect gate="A" pin="S1" pad="4"/>
+<connect gate="A" pin="S2" pad="6"/>
+<connect gate="A" pin="T1" pad="3"/>
+<connect gate="A" pin="T2" pad="1"/>
+<connect gate="A" pin="T3" pad="15"/>
+<connect gate="A" pin="T4" pad="2"/>
+<connect gate="A" pin="Z" pad="13"/>
+<connect gate="P" pin="GND" pad="8"/>
+<connect gate="P" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="DIL16B">
 <connects>
 <connect gate="A" pin="60" pad="10"/>
 <connect gate="A" pin="C1" pad="12"/>
@@ -452,7 +475,30 @@ pin 14 выход генератора контрольный 32768гц.
 <gate name="P" symbol="PWRN" x="2.54" y="-27.94" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="DIL16">
+<device name="L" package="DIL16">
+<connects>
+<connect gate="A" pin="A" pad="13"/>
+<connect gate="A" pin="B" pad="14"/>
+<connect gate="A" pin="C" pad="15"/>
+<connect gate="A" pin="D" pad="1"/>
+<connect gate="A" pin="HS" pad="7"/>
+<connect gate="A" pin="K" pad="3"/>
+<connect gate="A" pin="Q1" pad="12"/>
+<connect gate="A" pin="Q2" pad="4"/>
+<connect gate="A" pin="R" pad="6"/>
+<connect gate="A" pin="S" pad="2"/>
+<connect gate="A" pin="T1" pad="5"/>
+<connect gate="A" pin="T2" pad="10"/>
+<connect gate="A" pin="V1" pad="9"/>
+<connect gate="A" pin="V2" pad="11"/>
+<connect gate="P" pin="GND" pad="8"/>
+<connect gate="P" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="DIL16B">
 <connects>
 <connect gate="A" pin="A" pad="13"/>
 <connect gate="A" pin="B" pad="14"/>
