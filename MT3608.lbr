@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -74,21 +74,19 @@
 <library>
 <packages>
 <package name="SOT23-6">
-<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="2" x="0" y="-1" dx="1.27" dy="0.635" layer="1"/>
-<smd name="3" x="0" y="-2" dx="1.27" dy="0.635" layer="1"/>
-<smd name="4" x="2.5" y="-2" dx="1.27" dy="0.635" layer="1"/>
-<smd name="5" x="2.5" y="-1" dx="1.27" dy="0.635" layer="1"/>
-<smd name="6" x="2.5" y="0" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="0.7" y1="0.3" x2="0.7" y2="-2.6" width="0.1524" layer="52"/>
-<wire x1="0.7" y1="-2.6" x2="1.8" y2="-2.6" width="0.1524" layer="52"/>
-<wire x1="1.8" y1="-2.6" x2="1.8" y2="0.6" width="0.1524" layer="52"/>
-<wire x1="1.8" y1="0.6" x2="0.7" y2="0.6" width="0.1524" layer="52"/>
-<wire x1="0.7" y1="0.6" x2="0.7" y2="0.5" width="0.1524" layer="52"/>
-<wire x1="0.7" y1="0.5" x2="0.7" y2="0.3" width="0.1524" layer="52"/>
-<circle x="1" y="0.3" radius="0.1" width="0.1524" layer="52"/>
-<text x="-3.3" y="-4.7" size="1.778" layer="51">&gt;NAME</text>
-<text x="-3.3" y="-6.8" size="1.778" layer="51">MT3608</text>
+<smd name="1" x="-1.27" y="0.9525" dx="1.27" dy="0.635" layer="1"/>
+<smd name="2" x="-1.27" y="-0.0475" dx="1.27" dy="0.635" layer="1"/>
+<smd name="3" x="-1.27" y="-1.0475" dx="1.27" dy="0.635" layer="1"/>
+<smd name="4" x="1.23" y="-1.0475" dx="1.27" dy="0.635" layer="1"/>
+<smd name="5" x="1.23" y="-0.0475" dx="1.27" dy="0.635" layer="1"/>
+<smd name="6" x="1.23" y="0.9525" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-0.57" y1="1.5319" x2="-0.57" y2="-1.6475" width="0.1524" layer="51"/>
+<wire x1="-0.57" y1="-1.6475" x2="0.53" y2="-1.6475" width="0.1524" layer="51"/>
+<wire x1="0.53" y1="-1.6475" x2="0.53" y2="1.5525" width="0.1524" layer="51"/>
+<wire x1="0.53" y1="1.5525" x2="-0.57" y2="1.5525" width="0.1524" layer="51"/>
+<circle x="-0.27" y="1.2525" radius="0.1" width="0.1524" layer="51"/>
+<text x="-4.57" y="-3.7475" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.57" y="-5.8475" size="1.778" layer="27">MT3608</text>
 </package>
 </packages>
 <symbols>
@@ -109,8 +107,8 @@ SOT23-6
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
 <circle x="-6.35" y="1.016" radius="0.508" width="0.1524" layer="94"/>
-<text x="-0.762" y="-14.986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="3.302" size="1.778" layer="96">MT3608 </text>
+<text x="3.81" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-8.89" y="3.302" size="1.778" layer="96">MT3608 </text>
 </symbol>
 </symbols>
 <devicesets>
