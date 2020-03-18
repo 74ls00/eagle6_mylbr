@@ -510,7 +510,7 @@ BC847 SOT23 BCE</description>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_TO-92_EBC" package="TO92">
+<device name="_TO92_EBC" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -520,7 +520,7 @@ BC847 SOT23 BCE</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_TO-92_CBE" package="TO92">
+<device name="_TO92_CBE" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
@@ -560,6 +560,16 @@ BC847 SOT23 BCE</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_TO92_BCE" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="BJT_NPN" prefix="VT">
@@ -585,7 +595,7 @@ BC847 SOT23 BCE</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_TO-92_CBE" package="TO92">
+<device name="_TO92_CBE" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
@@ -630,6 +640,16 @@ BC847 SOT23 BCE</description>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 <connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TO92_BCE" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
