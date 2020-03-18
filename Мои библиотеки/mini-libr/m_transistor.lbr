@@ -560,11 +560,19 @@ BC847 SOT23 BCE</description>
 <technology name=""/>
 </technologies>
 </device>
+<<<<<<< HEAD
 <device name="_TO92_BCE" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="E" pad="3"/>
+=======
+<device name="_TO-92_ECB" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+>>>>>>> b15a177fd219936a3ae7fd0d2f5286d2417ce916
 </connects>
 <technologies>
 <technology name=""/>
@@ -645,11 +653,19 @@ BC847 SOT23 BCE</description>
 <technology name=""/>
 </technologies>
 </device>
+<<<<<<< HEAD
 <device name="_TO92_BCE" package="TO92">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="E" pad="3"/>
+=======
+<device name="_TO-92_ECB" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+>>>>>>> b15a177fd219936a3ae7fd0d2f5286d2417ce916
 </connects>
 <technologies>
 <technology name=""/>
