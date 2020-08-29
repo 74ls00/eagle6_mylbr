@@ -120,7 +120,7 @@
 <gate name="P" symbol="PWR+-" x="5.08" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="&quot;" package="DIL08">
+<device name="А" package="DIL08">
 <connects>
 <connect gate="A" pin="+IN" pad="2"/>
 <connect gate="A" pin="-IN" pad="1"/>
@@ -131,9 +131,6 @@
 <connect gate="P" pin="V+" pad="3"/>
 <connect gate="P" pin="V-" pad="7"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
 </device>
 </devices>
 </deviceset>
