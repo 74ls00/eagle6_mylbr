@@ -384,24 +384,24 @@ grid 2.54 mm</description>
 </package>
 <package name="TO18V">
 <description>&lt;b&gt;TO-18&lt;/b&gt;</description>
-<wire x1="-2.2098" y1="-0.9693" x2="2.2098" y2="-0.9693" width="0.0508" layer="21" curve="132.632"/>
-<wire x1="-0.9693" y1="2.2098" x2="0.9693" y2="2.2098" width="0.0508" layer="51" curve="-47.3681"/>
-<wire x1="-2.2098" y1="0.9693" x2="-2.2098" y2="-0.9693" width="0.0508" layer="51" curve="47.3681"/>
-<wire x1="-2.2098" y1="0.9693" x2="-0.9693" y2="2.2098" width="0.0508" layer="21" curve="-42.6319"/>
+<wire x1="2.2098" y1="0.9693" x2="-2.2098" y2="0.9693" width="0.0508" layer="21" curve="132.632"/>
+<wire x1="0.9693" y1="-2.2098" x2="-0.9693" y2="-2.2098" width="0.0508" layer="51" curve="-47.3681"/>
 <wire x1="2.2098" y1="-0.9693" x2="2.2098" y2="0.9693" width="0.0508" layer="51" curve="47.3681"/>
-<wire x1="1.649" y1="-2.411" x2="2.413" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="2.411" y1="-1.649" x2="3.175" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-3.175" x2="3.175" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="0.9693" y1="2.2098" x2="2.2098" y2="0.9693" width="0.0508" layer="21" curve="-42.6319"/>
+<wire x1="2.2098" y1="-0.9693" x2="0.9693" y2="-2.2098" width="0.0508" layer="21" curve="-42.6319"/>
+<wire x1="-2.2098" y1="0.9693" x2="-2.2098" y2="-0.9693" width="0.0508" layer="51" curve="47.3681"/>
+<wire x1="-1.649" y1="2.411" x2="-2.413" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-2.411" y1="1.649" x2="-3.175" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="3.175" x2="-3.175" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-0.9693" y1="-2.2098" x2="-2.2098" y2="-0.9693" width="0.0508" layer="21" curve="-42.6319"/>
 <circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
-<pad name="1" x="1.905" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="-1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="-1.905" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-1.905" y="0" drill="0.8128" shape="octagon" rot="R180"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon" rot="R180"/>
+<pad name="3" x="1.905" y="0" drill="0.8128" shape="octagon" rot="R180"/>
 <text x="3.302" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.302" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="1.016" y="0.762" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.508" y="-1.27" size="1.27" layer="51" ratio="10">2</text>
-<text x="-1.905" y="0.635" size="1.27" layer="51" ratio="10">3</text>
+<text x="-1.016" y="-0.762" size="1.27" layer="51" ratio="10" rot="R180">1</text>
+<text x="0.508" y="1.27" size="1.27" layer="51" ratio="10" rot="R180">2</text>
+<text x="1.905" y="-0.635" size="1.27" layer="51" ratio="10" rot="R180">3</text>
 </package>
 </packages>
 <symbols>
@@ -801,12 +801,23 @@ BC847 SOT23 BCE</description>
 <deviceset name="JFET-P">
 <description>&lt;b&gt;P-канальный транзистор&lt;/b&gt;&lt;p&gt;&lt;p&gt;
 
-КП103*  TO-18V SGD&lt;br&gt;</description>
+КП103*  TO-18V SGD&lt;br&gt;
+КП103*Р TO-92 SGD</description>
 <gates>
 <gate name="G$1" symbol="JFET-P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_TO-18V_SGD" package="TO18V">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TO-92_SGD" package="TO92">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="2"/>
