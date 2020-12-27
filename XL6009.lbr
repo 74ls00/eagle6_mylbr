@@ -153,15 +153,15 @@
 <symbols>
 <symbol name="XL6009">
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-5.08" y="8.28" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VIN" x="-10.16" y="5.08" length="short" direction="pwr"/>
 <pin name="EN" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="SW" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
-<pin name="FB" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="SW" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="FB" x="10.16" y="-5.08" length="short" direction="out" rot="R180"/>
 <pin name="GND" x="-10.16" y="-5.08" length="short" direction="in"/>
 </symbol>
 </symbols>

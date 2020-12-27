@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -108,11 +108,10 @@
 <pin name="IN" x="-12.7" y="5.08" length="middle" direction="in"/>
 <pin name="OUT" x="12.7" y="7.62" length="middle" direction="in" rot="R180"/>
 <pin name="G" x="-12.7" y="-5.08" length="middle" direction="in"/>
-<pin name="2" x="12.7" y="5.08" visible="pad" length="middle" direction="in" rot="R180"/>
 <pin name="-U" x="12.7" y="-5.08" length="middle" direction="in" rot="R180"/>
 <pin name="+U" x="12.7" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="3" x="12.7" y="2.54" visible="pad" length="middle" direction="in" rot="R180"/>
-<pin name="12" x="12.7" y="0" visible="pad" length="middle" direction="in" rot="R180"/>
+<pin name="FC@4" x="12.7" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="FC@12" x="12.7" y="0" length="middle" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -127,9 +126,8 @@
 <connect gate="A" pin="!IN" pad="10"/>
 <connect gate="A" pin="+U" pad="8"/>
 <connect gate="A" pin="-U" pad="1"/>
-<connect gate="A" pin="12" pad="14"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="4"/>
+<connect gate="A" pin="FC@12" pad="14"/>
+<connect gate="A" pin="FC@4" pad="4"/>
 <connect gate="A" pin="G" pad="5"/>
 <connect gate="A" pin="IN" pad="11"/>
 <connect gate="A" pin="OUT" pad="7"/>
