@@ -16170,6 +16170,17 @@ Source: http://www.commcon.com/main</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PINHD-2X32">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
