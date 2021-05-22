@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -99,6 +99,26 @@
 <text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="TO100">
+<description>&lt;b&gt;Metal Can Package&lt;/b&gt;</description>
+<wire x1="-4.572" y1="0.508" x2="-5.334" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="-0.508" x2="-5.334" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="-0.508" x2="-4.572" y2="-0.508" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4.572" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.8608" width="0.0508" layer="21"/>
+<pad name="5" x="2.921" y="0" drill="0.8128"/>
+<pad name="10" x="-2.921" y="0" drill="0.8128"/>
+<pad name="6" x="2.413" y="1.778" drill="0.8128"/>
+<pad name="7" x="0.889" y="2.794" drill="0.8128"/>
+<pad name="8" x="-0.889" y="2.794" drill="0.8128"/>
+<pad name="9" x="-2.413" y="1.778" drill="0.8128"/>
+<pad name="1" x="-2.413" y="-1.778" drill="0.8128"/>
+<pad name="2" x="-0.889" y="-2.794" drill="0.8128"/>
+<pad name="3" x="0.889" y="-2.794" drill="0.8128"/>
+<pad name="4" x="2.413" y="-1.778" drill="0.8128"/>
+<text x="-2.54" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="525PS2">
@@ -126,6 +146,31 @@
 <pin name="ΔZ" x="-15.24" y="-17.78" length="short" direction="in"/>
 <pin name="OUT" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
 </symbol>
+<symbol name="525PS3">
+<wire x1="12.7" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95" rot="MR0">&gt;NAME</text>
+<text x="-2.54" y="15.24" size="1.778" layer="95">&gt;VALUE</text>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<text x="-1.905" y="9.525" size="1.778" layer="94">KXY</text>
+<pin name="-U" x="15.24" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="+U" x="15.24" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="X1" x="-15.24" y="10.16" length="short" direction="in"/>
+<pin name="Z1" x="-15.24" y="-5.08" length="short" direction="in"/>
+<pin name="X2" x="-15.24" y="7.62" length="short" direction="in" function="dot"/>
+<pin name="Z2" x="-15.24" y="-7.62" length="short" direction="in" function="dot"/>
+<pin name="Y1" x="-15.24" y="2.54" length="short" direction="in"/>
+<pin name="K" x="-15.24" y="-12.7" length="short" direction="in"/>
+<pin name="OUT" x="15.24" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="Y2" x="-15.24" y="0" length="short" direction="in" function="dot"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="525ПС2">
@@ -145,6 +190,47 @@
 <connect gate="DD" pin="ΔX" pad="9"/>
 <connect gate="DD" pin="ΔY" pad="12"/>
 <connect gate="DD" pin="ΔZ" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="525ПС3">
+<gates>
+<gate name="G$1" symbol="525PS3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="DIL14">
+<connects>
+<connect gate="G$1" pin="+U" pad="14"/>
+<connect gate="G$1" pin="-U" pad="8"/>
+<connect gate="G$1" pin="K" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="12"/>
+<connect gate="G$1" pin="X1" pad="1"/>
+<connect gate="G$1" pin="X2" pad="2"/>
+<connect gate="G$1" pin="Y1" pad="6"/>
+<connect gate="G$1" pin="Y2" pad="7"/>
+<connect gate="G$1" pin="Z1" pad="11"/>
+<connect gate="G$1" pin="Z2" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="TO100">
+<connects>
+<connect gate="G$1" pin="+U" pad="9"/>
+<connect gate="G$1" pin="-U" pad="5"/>
+<connect gate="G$1" pin="K" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+<connect gate="G$1" pin="X1" pad="10"/>
+<connect gate="G$1" pin="X2" pad="1"/>
+<connect gate="G$1" pin="Y1" pad="3"/>
+<connect gate="G$1" pin="Y2" pad="4"/>
+<connect gate="G$1" pin="Z1" pad="7"/>
+<connect gate="G$1" pin="Z2" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
