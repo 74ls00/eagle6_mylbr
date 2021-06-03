@@ -175,21 +175,21 @@
 <devicesets>
 <deviceset name="525ПС2">
 <gates>
-<gate name="DD" symbol="525PS2" x="0" y="0"/>
+<gate name="DA" symbol="525PS2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL14">
 <connects>
-<connect gate="DD" pin="+U" pad="14"/>
-<connect gate="DD" pin="-U" pad="3"/>
-<connect gate="DD" pin="GND" pad="10"/>
-<connect gate="DD" pin="OUT" pad="2"/>
-<connect gate="DD" pin="X" pad="7"/>
-<connect gate="DD" pin="Y" pad="13"/>
-<connect gate="DD" pin="Z" pad="1"/>
-<connect gate="DD" pin="ΔX" pad="9"/>
-<connect gate="DD" pin="ΔY" pad="12"/>
-<connect gate="DD" pin="ΔZ" pad="11"/>
+<connect gate="DA" pin="+U" pad="14"/>
+<connect gate="DA" pin="-U" pad="3"/>
+<connect gate="DA" pin="GND" pad="10"/>
+<connect gate="DA" pin="OUT" pad="2"/>
+<connect gate="DA" pin="X" pad="7"/>
+<connect gate="DA" pin="Y" pad="13"/>
+<connect gate="DA" pin="Z" pad="1"/>
+<connect gate="DA" pin="ΔX" pad="9"/>
+<connect gate="DA" pin="ΔY" pad="12"/>
+<connect gate="DA" pin="ΔZ" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -199,21 +199,21 @@
 </deviceset>
 <deviceset name="525ПС3">
 <gates>
-<gate name="G$1" symbol="525PS3" x="0" y="0"/>
+<gate name="DA" symbol="525PS3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="A" package="DIL14">
 <connects>
-<connect gate="G$1" pin="+U" pad="14"/>
-<connect gate="G$1" pin="-U" pad="8"/>
-<connect gate="G$1" pin="K" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="12"/>
-<connect gate="G$1" pin="X1" pad="1"/>
-<connect gate="G$1" pin="X2" pad="2"/>
-<connect gate="G$1" pin="Y1" pad="6"/>
-<connect gate="G$1" pin="Y2" pad="7"/>
-<connect gate="G$1" pin="Z1" pad="11"/>
-<connect gate="G$1" pin="Z2" pad="10"/>
+<connect gate="DA" pin="+U" pad="14"/>
+<connect gate="DA" pin="-U" pad="8"/>
+<connect gate="DA" pin="K" pad="4"/>
+<connect gate="DA" pin="OUT" pad="12"/>
+<connect gate="DA" pin="X1" pad="1"/>
+<connect gate="DA" pin="X2" pad="2"/>
+<connect gate="DA" pin="Y1" pad="6"/>
+<connect gate="DA" pin="Y2" pad="7"/>
+<connect gate="DA" pin="Z1" pad="11"/>
+<connect gate="DA" pin="Z2" pad="10"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -221,16 +221,16 @@
 </device>
 <device name="" package="TO100">
 <connects>
-<connect gate="G$1" pin="+U" pad="9"/>
-<connect gate="G$1" pin="-U" pad="5"/>
-<connect gate="G$1" pin="K" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="8"/>
-<connect gate="G$1" pin="X1" pad="10"/>
-<connect gate="G$1" pin="X2" pad="1"/>
-<connect gate="G$1" pin="Y1" pad="3"/>
-<connect gate="G$1" pin="Y2" pad="4"/>
-<connect gate="G$1" pin="Z1" pad="7"/>
-<connect gate="G$1" pin="Z2" pad="6"/>
+<connect gate="DA" pin="+U" pad="9"/>
+<connect gate="DA" pin="-U" pad="5"/>
+<connect gate="DA" pin="K" pad="2"/>
+<connect gate="DA" pin="OUT" pad="8"/>
+<connect gate="DA" pin="X1" pad="10"/>
+<connect gate="DA" pin="X2" pad="1"/>
+<connect gate="DA" pin="Y1" pad="3"/>
+<connect gate="DA" pin="Y2" pad="4"/>
+<connect gate="DA" pin="Z1" pad="7"/>
+<connect gate="DA" pin="Z2" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
