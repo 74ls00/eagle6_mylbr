@@ -435,7 +435,7 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 <pin name="HIN" x="-7.62" y="0" visible="pad" length="short" direction="in"/>
 <text x="-3.81" y="-0.635" size="1.4224" layer="95">H</text>
 </symbol>
-<symbol name="161PR2">
+<symbol name="161PR3">
 <wire x1="-5.08" y1="12.7" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
@@ -479,37 +479,37 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 <devicesets>
 <deviceset name="КР1534ПП1">
 <gates>
-<gate name="DA" symbol="PP1" x="0" y="5.08"/>
+<gate name="DD" symbol="PP1" x="0" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="2205.48-3">
 <connects>
-<connect gate="DA" pin="+1DB" pad="17"/>
-<connect gate="DA" pin="+2DB" pad="19"/>
-<connect gate="DA" pin="+3DB" pad="20"/>
-<connect gate="DA" pin="+6DB" pad="21"/>
-<connect gate="DA" pin="-10DB" pad="9"/>
-<connect gate="DA" pin="-15DB" pad="8"/>
-<connect gate="DA" pin="-1DB" pad="15"/>
-<connect gate="DA" pin="-20DB" pad="7"/>
-<connect gate="DA" pin="-2DB" pad="14"/>
-<connect gate="DA" pin="-3DB" pad="13"/>
-<connect gate="DA" pin="-4DB" pad="12"/>
-<connect gate="DA" pin="-5DB" pad="11"/>
-<connect gate="DA" pin="-7DB" pad="10"/>
-<connect gate="DA" pin="-VCC" pad="25"/>
-<connect gate="DA" pin="0DB" pad="16"/>
-<connect gate="DA" pin="41" pad="41"/>
-<connect gate="DA" pin="A" pad="47"/>
-<connect gate="DA" pin="B" pad="48"/>
-<connect gate="DA" pin="C" pad="1"/>
-<connect gate="DA" pin="G1" pad="6"/>
-<connect gate="DA" pin="G2" pad="5"/>
-<connect gate="DA" pin="GND" pad="3"/>
-<connect gate="DA" pin="I" pad="27"/>
-<connect gate="DA" pin="IN1" pad="46"/>
-<connect gate="DA" pin="IN2" pad="45"/>
-<connect gate="DA" pin="K" pad="42"/>
+<connect gate="DD" pin="+1DB" pad="17"/>
+<connect gate="DD" pin="+2DB" pad="19"/>
+<connect gate="DD" pin="+3DB" pad="20"/>
+<connect gate="DD" pin="+6DB" pad="21"/>
+<connect gate="DD" pin="-10DB" pad="9"/>
+<connect gate="DD" pin="-15DB" pad="8"/>
+<connect gate="DD" pin="-1DB" pad="15"/>
+<connect gate="DD" pin="-20DB" pad="7"/>
+<connect gate="DD" pin="-2DB" pad="14"/>
+<connect gate="DD" pin="-3DB" pad="13"/>
+<connect gate="DD" pin="-4DB" pad="12"/>
+<connect gate="DD" pin="-5DB" pad="11"/>
+<connect gate="DD" pin="-7DB" pad="10"/>
+<connect gate="DD" pin="-VCC" pad="25"/>
+<connect gate="DD" pin="0DB" pad="16"/>
+<connect gate="DD" pin="41" pad="41"/>
+<connect gate="DD" pin="A" pad="47"/>
+<connect gate="DD" pin="B" pad="48"/>
+<connect gate="DD" pin="C" pad="1"/>
+<connect gate="DD" pin="G1" pad="6"/>
+<connect gate="DD" pin="G2" pad="5"/>
+<connect gate="DD" pin="GND" pad="3"/>
+<connect gate="DD" pin="I" pad="27"/>
+<connect gate="DD" pin="IN1" pad="46"/>
+<connect gate="DD" pin="IN2" pad="45"/>
+<connect gate="DD" pin="K" pad="42"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -519,42 +519,42 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 </deviceset>
 <deviceset name="КР1534ПП2">
 <gates>
-<gate name="DA" symbol="PP2" x="0" y="0"/>
+<gate name="DD" symbol="PP2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="2205.48-3">
 <connects>
-<connect gate="DA" pin="+1DB" pad="17"/>
-<connect gate="DA" pin="+2DB" pad="19"/>
-<connect gate="DA" pin="+3DB" pad="20"/>
-<connect gate="DA" pin="+6DB" pad="21"/>
-<connect gate="DA" pin="-10DB" pad="9"/>
-<connect gate="DA" pin="-15DB" pad="8"/>
-<connect gate="DA" pin="-1DB" pad="15"/>
-<connect gate="DA" pin="-20DB" pad="7"/>
-<connect gate="DA" pin="-2DB" pad="14"/>
-<connect gate="DA" pin="-3DB" pad="13"/>
-<connect gate="DA" pin="-4DB" pad="12"/>
-<connect gate="DA" pin="-5DB" pad="11"/>
-<connect gate="DA" pin="-7DB" pad="10"/>
-<connect gate="DA" pin="-VCC" pad="25"/>
-<connect gate="DA" pin="0DB" pad="16"/>
-<connect gate="DA" pin="32" pad="32"/>
-<connect gate="DA" pin="41" pad="41"/>
-<connect gate="DA" pin="A" pad="47"/>
-<connect gate="DA" pin="B" pad="48"/>
-<connect gate="DA" pin="C" pad="1"/>
-<connect gate="DA" pin="G1" pad="6"/>
-<connect gate="DA" pin="G2" pad="5"/>
-<connect gate="DA" pin="GND" pad="3"/>
-<connect gate="DA" pin="I" pad="27"/>
-<connect gate="DA" pin="IN1" pad="46"/>
-<connect gate="DA" pin="IN1P" pad="28"/>
-<connect gate="DA" pin="IN2" pad="45"/>
-<connect gate="DA" pin="IN2P" pad="29"/>
-<connect gate="DA" pin="IP" pad="26"/>
-<connect gate="DA" pin="K" pad="42"/>
-<connect gate="DA" pin="KP" pad="31"/>
+<connect gate="DD" pin="+1DB" pad="17"/>
+<connect gate="DD" pin="+2DB" pad="19"/>
+<connect gate="DD" pin="+3DB" pad="20"/>
+<connect gate="DD" pin="+6DB" pad="21"/>
+<connect gate="DD" pin="-10DB" pad="9"/>
+<connect gate="DD" pin="-15DB" pad="8"/>
+<connect gate="DD" pin="-1DB" pad="15"/>
+<connect gate="DD" pin="-20DB" pad="7"/>
+<connect gate="DD" pin="-2DB" pad="14"/>
+<connect gate="DD" pin="-3DB" pad="13"/>
+<connect gate="DD" pin="-4DB" pad="12"/>
+<connect gate="DD" pin="-5DB" pad="11"/>
+<connect gate="DD" pin="-7DB" pad="10"/>
+<connect gate="DD" pin="-VCC" pad="25"/>
+<connect gate="DD" pin="0DB" pad="16"/>
+<connect gate="DD" pin="32" pad="32"/>
+<connect gate="DD" pin="41" pad="41"/>
+<connect gate="DD" pin="A" pad="47"/>
+<connect gate="DD" pin="B" pad="48"/>
+<connect gate="DD" pin="C" pad="1"/>
+<connect gate="DD" pin="G1" pad="6"/>
+<connect gate="DD" pin="G2" pad="5"/>
+<connect gate="DD" pin="GND" pad="3"/>
+<connect gate="DD" pin="I" pad="27"/>
+<connect gate="DD" pin="IN1" pad="46"/>
+<connect gate="DD" pin="IN1P" pad="28"/>
+<connect gate="DD" pin="IN2" pad="45"/>
+<connect gate="DD" pin="IN2P" pad="29"/>
+<connect gate="DD" pin="IP" pad="26"/>
+<connect gate="DD" pin="K" pad="42"/>
+<connect gate="DD" pin="KP" pad="31"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -564,27 +564,27 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 </deviceset>
 <deviceset name="К161ПП1">
 <gates>
-<gate name="DA" symbol="161PP1" x="0" y="0"/>
+<gate name="DD" symbol="161PP1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="238.16-1">
 <connects>
-<connect gate="DA" pin="+1DB" pad="6"/>
-<connect gate="DA" pin="+3DB" pad="5"/>
-<connect gate="DA" pin="+5DB" pad="4"/>
-<connect gate="DA" pin="-10DB" pad="13"/>
-<connect gate="DA" pin="-1DB" pad="8"/>
-<connect gate="DA" pin="-2DB" pad="9"/>
-<connect gate="DA" pin="-3DB" pad="10"/>
-<connect gate="DA" pin="-5DB" pad="11"/>
-<connect gate="DA" pin="-7DB" pad="12"/>
-<connect gate="DA" pin="-VCC" pad="3"/>
-<connect gate="DA" pin="0DB" pad="7"/>
-<connect gate="DA" pin="CTRL" pad="16"/>
-<connect gate="DA" pin="CTRLP" pad="1"/>
-<connect gate="DA" pin="GND" pad="14"/>
-<connect gate="DA" pin="IN" pad="15"/>
-<connect gate="DA" pin="INP" pad="2"/>
+<connect gate="DD" pin="+1DB" pad="6"/>
+<connect gate="DD" pin="+3DB" pad="5"/>
+<connect gate="DD" pin="+5DB" pad="4"/>
+<connect gate="DD" pin="-10DB" pad="13"/>
+<connect gate="DD" pin="-1DB" pad="8"/>
+<connect gate="DD" pin="-2DB" pad="9"/>
+<connect gate="DD" pin="-3DB" pad="10"/>
+<connect gate="DD" pin="-5DB" pad="11"/>
+<connect gate="DD" pin="-7DB" pad="12"/>
+<connect gate="DD" pin="-VCC" pad="3"/>
+<connect gate="DD" pin="0DB" pad="7"/>
+<connect gate="DD" pin="CTRL" pad="16"/>
+<connect gate="DD" pin="CTRLP" pad="1"/>
+<connect gate="DD" pin="GND" pad="14"/>
+<connect gate="DD" pin="IN" pad="15"/>
+<connect gate="DD" pin="INP" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -594,22 +594,22 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 </deviceset>
 <deviceset name="К161ПП1А">
 <gates>
-<gate name="DA" symbol="161PP1A" x="0" y="0"/>
+<gate name="DD" symbol="161PP1A" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="238.16-1">
 <connects>
-<connect gate="DA" pin="-10DB" pad="13"/>
-<connect gate="DA" pin="-1DB" pad="8"/>
-<connect gate="DA" pin="-2DB" pad="9"/>
-<connect gate="DA" pin="-3DB" pad="10"/>
-<connect gate="DA" pin="-5DB" pad="11"/>
-<connect gate="DA" pin="-7DB" pad="12"/>
-<connect gate="DA" pin="-VCC" pad="3"/>
-<connect gate="DA" pin="0DB" pad="7"/>
-<connect gate="DA" pin="CTRL" pad="16"/>
-<connect gate="DA" pin="GND" pad="14"/>
-<connect gate="DA" pin="IN" pad="15"/>
+<connect gate="DD" pin="-10DB" pad="13"/>
+<connect gate="DD" pin="-1DB" pad="8"/>
+<connect gate="DD" pin="-2DB" pad="9"/>
+<connect gate="DD" pin="-3DB" pad="10"/>
+<connect gate="DD" pin="-5DB" pad="11"/>
+<connect gate="DD" pin="-7DB" pad="12"/>
+<connect gate="DD" pin="-VCC" pad="3"/>
+<connect gate="DD" pin="0DB" pad="7"/>
+<connect gate="DD" pin="CTRL" pad="16"/>
+<connect gate="DD" pin="GND" pad="14"/>
+<connect gate="DD" pin="IN" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -649,27 +649,27 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 </deviceset>
 <deviceset name="К161ПР2">
 <gates>
-<gate name="G$1" symbol="161PR2" x="0" y="-2.54"/>
+<gate name="DD" symbol="161PR3" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="238.16-1">
 <connects>
-<connect gate="G$1" pin="-VCC" pad="9"/>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="8" pad="5"/>
-<connect gate="G$1" pin="A" pad="14"/>
-<connect gate="G$1" pin="B" pad="16"/>
-<connect gate="G$1" pin="C" pad="13"/>
-<connect gate="G$1" pin="D" pad="15"/>
-<connect gate="G$1" pin="E" pad="10"/>
-<connect gate="G$1" pin="F" pad="12"/>
-<connect gate="G$1" pin="G" pad="11"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="H" pad="8"/>
-<connect gate="G$1" pin="HIN" pad="6"/>
-<connect gate="G$1" pin="СC" pad="7"/>
+<connect gate="DD" pin="-VCC" pad="9"/>
+<connect gate="DD" pin="1" pad="2"/>
+<connect gate="DD" pin="2" pad="3"/>
+<connect gate="DD" pin="4" pad="4"/>
+<connect gate="DD" pin="8" pad="5"/>
+<connect gate="DD" pin="A" pad="14"/>
+<connect gate="DD" pin="B" pad="16"/>
+<connect gate="DD" pin="C" pad="13"/>
+<connect gate="DD" pin="D" pad="15"/>
+<connect gate="DD" pin="E" pad="10"/>
+<connect gate="DD" pin="F" pad="12"/>
+<connect gate="DD" pin="G" pad="11"/>
+<connect gate="DD" pin="GND" pad="1"/>
+<connect gate="DD" pin="H" pad="8"/>
+<connect gate="DD" pin="HIN" pad="6"/>
+<connect gate="DD" pin="СC" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -679,27 +679,27 @@ https://www.radiokot.ru/forum/viewtopic.php?p=859791&lt;br&gt;
 </deviceset>
 <deviceset name="К161ПР3">
 <gates>
-<gate name="G$1" symbol="161PR2" x="-2.54" y="-2.54"/>
+<gate name="DD" symbol="161PR3" x="-2.54" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="238.16-1">
 <connects>
-<connect gate="G$1" pin="-VCC" pad="9"/>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="8" pad="5"/>
-<connect gate="G$1" pin="A" pad="14"/>
-<connect gate="G$1" pin="B" pad="16"/>
-<connect gate="G$1" pin="C" pad="13"/>
-<connect gate="G$1" pin="D" pad="15"/>
-<connect gate="G$1" pin="E" pad="10"/>
-<connect gate="G$1" pin="F" pad="12"/>
-<connect gate="G$1" pin="G" pad="11"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="H" pad="8"/>
-<connect gate="G$1" pin="HIN" pad="7"/>
-<connect gate="G$1" pin="СC" pad="6"/>
+<connect gate="DD" pin="-VCC" pad="9"/>
+<connect gate="DD" pin="1" pad="2"/>
+<connect gate="DD" pin="2" pad="3"/>
+<connect gate="DD" pin="4" pad="4"/>
+<connect gate="DD" pin="8" pad="5"/>
+<connect gate="DD" pin="A" pad="14"/>
+<connect gate="DD" pin="B" pad="16"/>
+<connect gate="DD" pin="C" pad="13"/>
+<connect gate="DD" pin="D" pad="15"/>
+<connect gate="DD" pin="E" pad="10"/>
+<connect gate="DD" pin="F" pad="12"/>
+<connect gate="DD" pin="G" pad="11"/>
+<connect gate="DD" pin="GND" pad="1"/>
+<connect gate="DD" pin="H" pad="8"/>
+<connect gate="DD" pin="HIN" pad="7"/>
+<connect gate="DD" pin="СC" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
