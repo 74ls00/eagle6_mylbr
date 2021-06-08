@@ -73,7 +73,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;b&gt;К161ПП1&lt;/b&gt; — цифровая схема управления двухканальными ВЛИ сигналов &lt;b&gt;среднего&lt;/b&gt; и &lt;b&gt;пикового&lt;/b&gt; уровня;&lt;br&gt;
+<description>КР1534, К161 &lt;br&gt;&lt;br&gt;
+&lt;b&gt;К161ПП1&lt;/b&gt; — цифровая схема управления двухканальными ВЛИ сигналов &lt;b&gt;среднего&lt;/b&gt; и &lt;b&gt;пикового&lt;/b&gt; уровня;&lt;br&gt;
 &lt;b&gt;К161ПП1А&lt;/b&gt; — цифровая схема управления двухканальными ВЛИ сигналов &lt;b&gt;среднего&lt;/b&gt; уровня;&lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;М84&lt;/b&gt; — схема выбора режима и управления ВЛИ;&lt;br&gt;
