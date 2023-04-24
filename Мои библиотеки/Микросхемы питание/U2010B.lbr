@@ -70,7 +70,6 @@
 </layers>
 <library>
 <packages>
-
 <package name="SO16">
 <description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
 <wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="21"/>
