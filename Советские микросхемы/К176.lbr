@@ -74,7 +74,12 @@
 </layers>
 <library>
 <description>&lt;b&gt;Советские часовые микросхемы серии К176&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;К176ИЕ5, К176ИЕ12, К176ИЕ18&lt;/b&gt; нарисованы с совпадением выводов на схеме, без перемещения проводников.&lt;br&gt;</description>
+&lt;b&gt;К176ИЕ5, К176ИЕ12, К176ИЕ18&lt;/b&gt; нарисованы с совпадением выводов на схеме, без перемещения проводников.&lt;br&gt;
+
+&lt;br&gt;
+&lt;b&gt;164&lt;/b&gt; упоминается как аналог К176&lt;br&gt;
+&lt;br&gt;
+164ИЕ4 в пластиковом корпусе в часах Электроника Б6-401&lt;br&gt;</description>
 <packages>
 <package name="DIL16">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
